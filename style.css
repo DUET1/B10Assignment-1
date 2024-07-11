@@ -1,6 +1,6 @@
 
 
-.azeret-mono-hero-content-heading,.current-target-title,.inspiration-content-title,.btn,.content-des,.hero-content-des, .development-content-title , .development-content-des,.content-title,.content-des{
+.azeret-mono-hero-content-heading,.content-link,.current-target-title,.inspiration-content-title,.btn,.content-des,.hero-content-des, .development-content-title , .development-content-des,.content-title,.content-des{
     font-family: "Azeret Mono", monospace;
     font-style: normal;
   }
@@ -151,4 +151,31 @@ margin:0px ;
 .video-content iframe{
     border-radius: 16px;
 }
+.target-cards{
+  margin:0px 210px 0px 210px;
+ display: flex;
+ gap:30px;
 
+}
+.current-target-content{
+    margin:0px 210px 0px 210px;
+    text-align: center;
+    justify-content: center;
+}
+
+.card{
+    margin:30px 0px;
+    border-radius: 16px;
+    padding:10px 30px 0px 0px;
+     background: rgba(255, 76, 30, 0.05);
+
+}
+.img,.content-title,.content-des{
+    padding:0px 10px;
+}
+.content-link{
+    padding:0px 10px;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 600;
+}
