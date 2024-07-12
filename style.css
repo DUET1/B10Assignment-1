@@ -1,6 +1,6 @@
 
 
-.azeret-mono-hero-content-heading,.content-link,.current-target-title,.inspiration-content-title,.btn,.content-des,.hero-content-des, .development-content-title , .development-content-des,.content-title,.content-des{
+.azeret-mono-hero-content-heading,.feedback-title,.content-link,.current-target-title,.inspiration-content-title,.btn,.content-des,.hero-content-des, .development-content-title , .development-content-des,.content-title,.content-des{
     font-family: "Azeret Mono", monospace;
     font-style: normal;
   }
@@ -200,11 +200,44 @@ margin:0px ;
     width:auto;
     margin:20px 210px;
     border-radius: 16px;
-
-background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
-   
-
+     background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
 }
-    
+.feedback-content-des{
+padding: 40px 48px 40px 48px;
+}
 
-
+.feedback-title{
+    color: rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+.feedback-des{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+.feedback-message{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.input-text{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+}
+.feedback-btn{
+    background-color:white;
+    border-radius: 10px;
+}
+.footer{
+    border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
+display: flex;
+justify-content: space-around;
+}
